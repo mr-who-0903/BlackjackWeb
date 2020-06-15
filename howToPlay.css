@@ -1,0 +1,67 @@
+
+.mainContainer{
+    
+    font-family: sans-serif;
+    width: 75%;
+    margin: auto;
+    border: 2px solid black;
+}
+.heading{
+    background: green;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.howToPlay{
+   /*background: #15bc15;*/
+    opacity: .8;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h2{ 
+    margin-left: 30px;
+    font-size: 30px;
+}
+.line{
+    background: black;
+    height: 2px;
+    width: 70%;
+    margin-left: 20px;
+}
+#hit{
+    color: green;
+}
+#bust{
+    color: red;
+}
+#stand{
+    color: #1f1d5d;
+}
+#deal{
+    color: #a70303;
+}
+#btnContainer{
+    text-align: center;
+}
+#btn{
+    cursor: pointer;
+    border: 1px solid black;
+    background: green;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.8s;
+    font-size: 18px;
+    text-align: center;
+}
+#btn:hover{
+    background: white;
+    color: green;
+}

@@ -1,0 +1,87 @@
+.mainContainer{
+    border: 1px solid black;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+}
+.flex-box-row1, .flex-box-row3{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+.flex-box-row1 img{
+    width: 15%;
+    padding: 10px;
+}
+.flex-box-row1 div{
+    border: 1px solid black;
+    height: 340px;
+    color: white;
+    flex: 1;
+    background: green;
+}
+.flex-box-row2{
+    padding: 10px;
+    border: 1px solid black;
+}
+#hit-btn{
+    padding: 10px;
+    background: #20d627;
+    font-size: 20px;
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#stand-btn{
+    padding: 10px;             
+    background: #f5b60c;
+    font-size: 20px;
+    width: 90px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+#deal-btn{
+    padding: 10px;
+    background: #f0290f;
+    font-size: 20px;
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 1s;
+}
+#hit-btn:hover{
+    background: #299d2d;
+}
+#stand-btn:hover{
+    background: #c49515;
+}
+#deal-btn:hover{
+    background: #ba2727;
+}
+table, td{
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 6.5px;
+}
+#result{
+    font-size: 30px;
+}
+th{ 
+    padding: 6.5px;
+    background: green;
+    color: white;
+    font-family: serif;
+}
+
+

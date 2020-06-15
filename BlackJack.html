@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="BlackJack.css">
+    <title>The Blackjack</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <h1>The Blackjack</h1>
+        <h2><span id="result">Let's play</span></h2>
+        <div class="flex-box-row1">
+            <div id="your-box">
+                <h2>You : <span id="your-score">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Dealer : <span id="dealer-score">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-box-row2">
+            <div>
+                <button id="hit-btn">Hit</button>
+                <button id="stand-btn">Stand</button>
+                <button id="deal-btn">Deal</button>
+            </div>
+        </div>
+        <div class="flex-box-row3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Looses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="winning-score">0</span></td>
+                    <td><span id="loosing-score">0</span></td>
+                    <td><span id="draw-score">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="BlackJack.js"></script>
+    <audio id ="hit-audio" src="./sounds/swish.m4a"></audio> 
+    <audio id="win-audio" src="./sounds/cash.mp3"></audio>
+    <audio id="loose-audio" src="./sounds/aww.mp3"></audio>
+</body>
+
+
+
+</html>
